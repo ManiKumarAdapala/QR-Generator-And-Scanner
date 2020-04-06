@@ -1,4 +1,4 @@
-import pyqrcode
+import pyqrcode     #imports Required Modules
 from pyqrcode import QRCode
 # String which represent the QR code
 u = input("Enter URL: ")
