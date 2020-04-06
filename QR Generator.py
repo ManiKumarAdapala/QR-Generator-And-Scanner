@@ -4,5 +4,5 @@ from pyqrcode import QRCode
 u = input("Enter URL: ")
 # Generate QR code
 url = pyqrcode.create(u)
-# Create and save the png file naming "myqr.png"
+# Create and save the png file naming "QR.svg"
 url.svg("QR.svg", scale = 8)
